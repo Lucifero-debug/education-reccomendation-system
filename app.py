@@ -5,7 +5,7 @@ import numpy as np
 app=Flask(__name__)
 
 sc=pickle.load(open('models/sclaer.pkl','rb'))
-rfc=pickle.load(open('models/model.pkl','rb'))
+rfc=pickle.load(open('model.pkl','rb'))
 class_names = ['Lawyer', 'Doctor', 'Government Officer', 'Artist', 'Unknown',
                'Software Engineer', 'Teacher', 'Business Owner', 'Scientist',
                'Banker', 'Writer', 'Accountant', 'Designer',
